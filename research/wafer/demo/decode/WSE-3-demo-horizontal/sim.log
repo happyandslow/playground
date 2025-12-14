@@ -1,0 +1,430 @@
+@0 GITREV=9382352f0d2a12a202865fc1981160b16bd0666f, GITCLEAN=1
+@0 Create from elfs
+@0 dimX=23, dimY=10
+@0 Reading ELF file out/generated/default.elf
+@0 Reading ELF file out/generated/coord.elf
+@0 Reading ELF file out/bin/out_7_0.elf
+@0 Reading ELF file out/bin/out_69_0.elf
+@0 Reading ELF file out/bin/out_38_0.elf
+@0 Reading ELF file out/bin/out_84_0.elf
+@0 Reading ELF file out/bin/out_35_0.elf
+@0 Reading ELF file out/bin/out_9_0.elf
+@0 Reading ELF file out/bin/out_63_0.elf
+@0 Reading ELF file out/bin/out_68_0.elf
+@0 Reading ELF file out/bin/out_45_0.elf
+@0 Reading ELF file out/bin/out_6_0.elf
+@0 Reading ELF file out/bin/out_39_0.elf
+@0 Reading ELF file out/bin/out_88_0.elf
+@0 Reading ELF file out/bin/out_62_0.elf
+@0 Reading ELF file out/bin/out_71_0.elf
+@0 Reading ELF file out/bin/out_83_0.elf
+@0 Reading ELF file out/bin/out_96_0.elf
+@0 Reading ELF file out/bin/out_16_0.elf
+@0 Reading ELF file out/bin/out_94_0.elf
+@0 Reading ELF file out/bin/out_21_0.elf
+@0 Reading ELF file out/bin/out_0_0.elf
+@0 Reading ELF file out/bin/out_19_0.elf
+@0 Reading ELF file out/bin/out_20_0.elf
+@0 Reading ELF file out/bin/out_51_0.elf
+@0 Reading ELF file out/bin/out_32_0.elf
+@0 Reading ELF file out/bin/out_1_0.elf
+@0 Reading ELF file out/bin/out_18_0.elf
+@0 Reading ELF file out/bin/out_22_0.elf
+@0 Reading ELF file out/bin/out_4_0.elf
+@0 Reading ELF file out/bin/out_17_0.elf
+@0 Reading ELF file out/bin/out_73_0.elf
+@0 Reading ELF file out/bin/out_77_0.elf
+@0 Reading ELF file out/bin/out_31_0.elf
+@0 Reading ELF file out/bin/out_59_0.elf
+@0 Reading ELF file out/bin/out_56_0.elf
+@0 Reading ELF file out/bin/out_14_0.elf
+@0 Reading ELF file out/bin/out_72_0.elf
+@0 Reading ELF file out/bin/out_85_0.elf
+@0 Reading ELF file out/bin/out_43_0.elf
+@0 Reading ELF file out/bin/out_92_0.elf
+@0 Reading ELF file out/bin/out_46_0.elf
+@0 Reading ELF file out/bin/out_28_0.elf
+@0 Reading ELF file out/bin/out_26_0.elf
+@0 Reading ELF file out/bin/out_44_0.elf
+@0 Reading ELF file out/bin/out_66_0.elf
+@0 Reading ELF file out/bin/out_75_0.elf
+@0 Reading ELF file out/bin/out_87_0.elf
+@0 Reading ELF file out/bin/out_70_0.elf
+@0 Reading ELF file out/bin/out_90_0.elf
+@0 Reading ELF file out/bin/out_3_0.elf
+@0 Reading ELF file out/bin/out_78_0.elf
+@0 Reading ELF file out/bin/out_42_0.elf
+@0 Reading ELF file out/bin/out_8_0.elf
+@0 Reading ELF file out/bin/out_47_0.elf
+@0 Reading ELF file out/bin/out_37_0.elf
+@0 Reading ELF file out/bin/out_93_0.elf
+@0 Reading ELF file out/bin/out_15_0.elf
+@0 Reading ELF file out/bin/out_11_0.elf
+@0 Reading ELF file out/bin/out_65_0.elf
+@0 Reading ELF file out/bin/out_74_0.elf
+@0 Reading ELF file out/bin/out_53_0.elf
+@0 Reading ELF file out/bin/out_79_0.elf
+@0 Reading ELF file out/bin/out_60_0.elf
+@0 Reading ELF file out/bin/out_34_0.elf
+@0 Reading ELF file out/bin/out_48_0.elf
+@0 Reading ELF file out/bin/out_67_0.elf
+@0 Reading ELF file out/bin/out_2_0.elf
+@0 Reading ELF file out/bin/out_80_0.elf
+@0 Reading ELF file out/bin/out_23_0.elf
+@0 Reading ELF file out/bin/out_89_0.elf
+@0 Reading ELF file out/bin/out_5_0.elf
+@0 Reading ELF file out/bin/out_95_0.elf
+@0 Reading ELF file out/bin/out_55_0.elf
+@0 Reading ELF file out/bin/out_36_0.elf
+@0 Reading ELF file out/bin/out_50_0.elf
+@0 Reading ELF file out/bin/out_27_0.elf
+@0 Reading ELF file out/bin/out_10_0.elf
+@0 Reading ELF file out/bin/out_57_0.elf
+@0 Reading ELF file out/bin/out_61_0.elf
+@0 Reading ELF file out/bin/out_13_0.elf
+@0 Reading ELF file out/bin/out_54_0.elf
+@0 Reading ELF file out/bin/out_91_0.elf
+@0 Reading ELF file out/bin/out_82_0.elf
+@0 Reading ELF file out/bin/out_29_0.elf
+@0 Reading ELF file out/bin/out_58_0.elf
+@0 Reading ELF file out/bin/out_33_0.elf
+@0 Reading ELF file out/bin/out_86_0.elf
+@0 Reading ELF file out/bin/out_64_0.elf
+@0 Reading ELF file out/bin/out_52_0.elf
+@0 Reading ELF file out/bin/out_40_0.elf
+@0 Reading ELF file out/bin/out_81_0.elf
+@0 Reading ELF file out/bin/out_25_0.elf
+@0 Reading ELF file out/bin/out_76_0.elf
+@0 Reading ELF file out/bin/out_49_0.elf
+@0 Reading ELF file out/bin/out_30_0.elf
+@0 Reading ELF file out/bin/out_24_0.elf
+@0 Reading ELF file out/bin/out_12_0.elf
+@0 Reading ELF file out/bin/out_97_0.elf
+@0 Reading ELF file out/bin/out_41_0.elf
+@0 Reading ELF file out/east/bin/out_0_0.elf
+@0 Reading ELF file out/east/bin/out_1_0.elf
+@0 Reading ELF file out/east/bin/out_4_0.elf
+@0 Reading ELF file out/east/bin/out_3_0.elf
+@0 Reading ELF file out/east/bin/out_2_0.elf
+@0 Reading ELF file out/east/bin/out_5_0.elf
+@0 Reading ELF file out/west/bin/out_7_0.elf
+@0 Reading ELF file out/west/bin/out_6_0.elf
+@0 Reading ELF file out/west/bin/out_0_0.elf
+@0 Reading ELF file out/west/bin/out_1_0.elf
+@0 Reading ELF file out/west/bin/out_4_0.elf
+@0 Reading ELF file out/west/bin/out_3_0.elf
+@0 Reading ELF file out/west/bin/out_2_0.elf
+@0 Reading ELF file out/west/bin/out_5_0.elf
+@0 Reading ELF file out/generated/MEMCPY_XY_ROUTES.elf
+@0 Invocation key is: sim1D9B38C8B9631BAADEF4EFC2691ACF58
+@0 Plan key is: plan4EEEB5653482BF62D32D89CBFC0E4E6A
+@0 SimTraceCtf, flags:  wavelets=0 landing=1 inst=1 switch_positions=0 stalls=1
+@0 P0.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P1.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P2.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P3.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P4.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P5.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P6.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P7.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P8.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P9.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P10.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P11.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P12.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P13.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P14.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P15.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P16.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P17.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P18.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P19.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P20.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P21.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P22.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P0.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P1.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P2.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P3.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P4.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P5.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P6.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P7.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P8.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P9.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P10.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P11.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P12.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P13.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P14.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P15.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P16.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P17.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P18.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P19.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P20.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P21.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P22.1 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P0.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P1.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P2.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P3.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P4.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P5.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P6.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P7.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P8.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P9.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P10.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P11.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P12.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P13.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P14.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P15.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P16.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P17.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P18.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P19.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P20.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P21.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P22.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P0.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P1.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P2.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P3.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P4.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P5.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P6.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P7.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P8.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P9.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P10.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P11.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P12.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P13.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P14.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P15.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P16.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P17.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P18.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P19.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P20.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P21.3 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P22.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P0.4 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P1.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P2.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P3.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P4.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P5.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P6.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P7.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P8.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P9.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P10.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P11.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P12.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P13.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P14.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P15.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P16.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P17.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P18.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P19.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P20.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P21.4 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P22.4 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P0.5 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P1.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P2.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P3.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P4.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P5.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P6.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P7.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P8.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P9.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P10.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P11.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P12.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P13.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P14.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P15.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P16.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P17.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P18.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P19.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P20.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P21.5 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P22.5 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P0.6 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P1.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P2.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P3.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P4.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P5.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P6.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P7.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P8.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P9.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P10.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P11.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P12.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P13.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P14.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P15.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P16.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P17.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P18.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P19.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P20.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P21.6 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P22.6 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P0.7 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P1.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P2.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P3.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P4.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P5.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P6.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P7.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P8.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P9.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P10.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P11.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P12.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P13.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P14.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P15.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P16.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P17.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P18.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P19.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P20.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P21.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P22.7 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P0.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P1.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P2.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P3.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P4.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P5.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P6.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P7.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P8.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P9.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P10.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P11.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P12.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P13.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P14.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P15.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P16.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P17.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P18.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P19.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P20.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P21.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P22.8 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P0.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P1.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P2.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P3.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P4.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P5.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P6.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P7.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P8.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P9.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P10.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P11.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P12.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P13.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P14.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P15.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P16.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P17.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P18.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P19.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P20.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P21.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P22.9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LW0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LW1 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LW2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LW3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LW4 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LW5 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LW6 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LW7 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LW8 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LW9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LE0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LE1 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LE2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LE3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LE4 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LE5 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LE6 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LE7 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LE8 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LE9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN1 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN4 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN5 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN6 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN7 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN8 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN10 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN11 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN12 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN13 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN14 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN15 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN16 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN17 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN18 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN19 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN20 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN21 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN22 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS1 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS4 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS5 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS6 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS7 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS8 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS10 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS11 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS12 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS13 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS14 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS15 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS16 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS17 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS18 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS19 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS20 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS21 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS22 (nul) tile trace flag: inst_trace,landing,stalls
+@0 Architecture is: SDR
+@0 Simtile is: hwtile
+@0 Sim stats: config-time=0.14, nodes=1, threads=64
+@0 Sim stats: tiles=296, simulated_tiles=176, hwtile=172, iotile=4, nultile=120
+@102521 Request to asynchronously stop simulation
+@102523 Stopping due to user request
+@102523 4342 cycles since an instruction was executed, 4387 cycles since a wavelet landed
+@102523 Simulation used 35.48 seconds, init-time=0.15, total-time=35.63, cycles=102523, cyc/sec=2889.67, tile-cyc/sec=508581.10, tile-cyc/sec-thread=7946.58
+@102523 CTF Stats: num_stalls_       =            0
+@102523 CTF Stats: num_wavelets      =      2443086
+@102523 CTF Stats: num_inst_dispatch =      2582893
+@102523 CTF Stats: num_inst_pipe     =      8519541
+@102523 CTF Stats: num_switch_pos    =            0

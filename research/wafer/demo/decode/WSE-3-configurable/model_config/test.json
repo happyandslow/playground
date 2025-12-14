@@ -1,0 +1,17 @@
+{
+    "P": 8,
+    "group_num": 2,
+    "bsz": 1,
+    "dim": 64,
+    "n_heads": 1,
+    "n_kv_heads": 1,
+    "head_dim": 64,
+    "seq_len": 64,
+    "ffn_dim": 64,
+    "tenants": [
+        { "name": "t0", "x": 0,  "y": 0  },
+        { "name": "t1", "x": 8,  "y": 0  },
+        { "name": "t2", "x": 0,  "y": 8  },
+        { "name": "t3", "x": 8,  "y": 8  }
+    ]
+  }
