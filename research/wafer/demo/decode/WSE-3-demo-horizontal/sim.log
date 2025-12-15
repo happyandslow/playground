@@ -116,7 +116,7 @@
 @0 Reading ELF file out/west/bin/out_2_0.elf
 @0 Reading ELF file out/west/bin/out_5_0.elf
 @0 Reading ELF file out/generated/MEMCPY_XY_ROUTES.elf
-@0 Invocation key is: sim1D9B38C8B9631BAADEF4EFC2691ACF58
+@0 Invocation key is: sim9694C09DC20276D85FE8D55708AC1CD8
 @0 Plan key is: plan4EEEB5653482BF62D32D89CBFC0E4E6A
 @0 SimTraceCtf, flags:  wavelets=0 landing=1 inst=1 switch_positions=0 stalls=1
 @0 P0.0 (nul) tile trace flag: inst_trace,landing,stalls
@@ -417,14 +417,14 @@
 @0 LS22 (nul) tile trace flag: inst_trace,landing,stalls
 @0 Architecture is: SDR
 @0 Simtile is: hwtile
-@0 Sim stats: config-time=0.14, nodes=1, threads=64
+@0 Sim stats: config-time=0.15, nodes=1, threads=64
 @0 Sim stats: tiles=296, simulated_tiles=176, hwtile=172, iotile=4, nultile=120
-@102521 Request to asynchronously stop simulation
-@102523 Stopping due to user request
-@102523 4342 cycles since an instruction was executed, 4387 cycles since a wavelet landed
-@102523 Simulation used 35.48 seconds, init-time=0.15, total-time=35.63, cycles=102523, cyc/sec=2889.67, tile-cyc/sec=508581.10, tile-cyc/sec-thread=7946.58
-@102523 CTF Stats: num_stalls_       =            0
-@102523 CTF Stats: num_wavelets      =      2443086
-@102523 CTF Stats: num_inst_dispatch =      2582893
-@102523 CTF Stats: num_inst_pipe     =      8519541
-@102523 CTF Stats: num_switch_pos    =            0
+@101861 Request to asynchronously stop simulation
+@101864 Stopping due to user request
+@101864 3681 cycles since an instruction was executed, 3726 cycles since a wavelet landed
+@101864 Simulation used 195.01 seconds, init-time=0.21, total-time=195.22, cycles=101864, cyc/sec=522.35, tile-cyc/sec=91934.13, tile-cyc/sec-thread=1436.47
+@101864 CTF Stats: num_stalls_       =            0
+@101864 CTF Stats: num_wavelets      =      2443086
+@101864 CTF Stats: num_inst_dispatch =      2582893
+@101864 CTF Stats: num_inst_pipe     =      8519541
+@101864 CTF Stats: num_switch_pos    =            0

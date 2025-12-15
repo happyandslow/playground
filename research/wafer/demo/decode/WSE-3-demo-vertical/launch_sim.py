@@ -306,6 +306,7 @@ def main():
     print(X)
     print("Simulated Result (tenant 0):")
     print(debug_t0)
+    print(debug_t0.shape, P, bsz, dim_p_pe)
     print("Simulated Result (tenant 1):")
     print(debug_t1)
     

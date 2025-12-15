@@ -312,6 +312,7 @@ def main():
     # reconstructed debug vector per tenant. Each PE holds bsz * dim_p_pe
     # elements of the vector (for its shard along the model dimension).
     debug_1d_u32 = np.zeros(layout_width * layout_height * bsz * dim_p_pe, dtype=np.uint32)
+    print(layout_width, layout_height, bsz, dim_p_pe)
     runner.memcpy_d2h(
         debug_1d_u32, sym_debug, 0, 0, layout_width, layout_height, bsz * dim_p_pe,
         streaming=False, data_type=io_dtype, order=memcpy_order, nonblock=False
@@ -340,14 +341,20 @@ def main():
     print(X)
     # Reconstruct and print a single vector per tenant (using the first row of
     # that tenant's P x P block and concatenating along x).
+    print(debug.shape)
+    print(tenants)
     for idx, t in enumerate(tenants):
         name = t.get("name", f"t{idx}")
         y0 = t["y"]
         x0 = t["x"]
+        print(x0, y0)
         # Take one row of P PEs for this tenant.
-        row_block = debug[y0, x0:x0 + P, :]  # shape: [P, bsz * dim_p_pe]
+        row_block = debug[y0 : y0 + P, x0 : x0 + P, :]  # shape: [P, bsz * dim_p_pe]
         # Collapse P shards along the model dimension into a full dim vector.
-        tenant_vec = row_block.reshape(bsz, P * dim_p_pe)  # [bsz, dim]
+        #tenant_vec = row_block.reshape(bsz, P * dim_p_pe)  # [bsz, dim]
+        print(row_block.shape, y0, P)
+        tenant_vec = row_block.reshape(P, bsz * dim)  # [bsz, dim]
+        print(row_block.shape, tenant_vec.shape)
         print(f"Simulated Result ({name}):")
         print(tenant_vec)
     

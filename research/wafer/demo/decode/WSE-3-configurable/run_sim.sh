@@ -147,3 +147,5 @@ rm -rf simfab_traces
 rm -rf wio_flows_tmpdir.*
 rm wsjob-*.json
 rm run_meta.json
+rm -rf out
+rm -rf si
