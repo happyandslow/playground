@@ -1,0 +1,67 @@
+{
+  "rpc_symbols": [
+    {
+      "id": 1,
+      "immutable": 0,
+      "kind": "Var",
+      "name": "A",
+      "sym_name": "A_ptr",
+      "type": "[*]f32"
+    },
+    {
+      "id": 3,
+      "immutable": 0,
+      "kind": "Var",
+      "name": "b",
+      "sym_name": "b_ptr",
+      "type": "[*]f32"
+    },
+    {
+      "id": 2,
+      "immutable": 0,
+      "kind": "Var",
+      "name": "x",
+      "sym_name": "x_ptr",
+      "type": "[*]f32"
+    },
+    {
+      "id": 4,
+      "immutable": 1,
+      "kind": "Var",
+      "name": "y1",
+      "sym_name": "y_ptr",
+      "type": "[*]f32"
+    },
+    {
+      "id": 8,
+      "kind": "Func",
+      "name": "compute",
+      "sym_name": "compute",
+      "type": "void"
+    },
+    {
+      "id": 5,
+      "immutable": 1,
+      "kind": "Var",
+      "name": "y2",
+      "sym_name": "y_ptr",
+      "type": "[*]f32"
+    },
+    {
+      "id": 6,
+      "immutable": 1,
+      "kind": "Var",
+      "name": "y3",
+      "sym_name": "y_ptr",
+      "type": "[*]f32"
+    },
+    {
+      "id": 7,
+      "immutable": 1,
+      "kind": "Var",
+      "name": "y4",
+      "sym_name": "y_ptr",
+      "type": "[*]f32"
+    }
+  ]
+}

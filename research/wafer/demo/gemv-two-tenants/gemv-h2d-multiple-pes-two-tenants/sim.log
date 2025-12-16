@@ -1,0 +1,113 @@
+@0 GITREV=9382352f0d2a12a202865fc1981160b16bd0666f, GITCLEAN=1
+@0 Create from elfs
+@0 dimX=11, dimY=4
+@0 Reading ELF file out/generated/default.elf
+@0 Reading ELF file out/generated/coord.elf
+@0 Reading ELF file out/bin/out_0_0.elf
+@0 Reading ELF file out/bin/out_1_0.elf
+@0 Reading ELF file out/bin/out_4_0.elf
+@0 Reading ELF file out/bin/out_3_0.elf
+@0 Reading ELF file out/bin/out_2_0.elf
+@0 Reading ELF file out/bin/out_5_0.elf
+@0 Reading ELF file out/east/bin/out_0_0.elf
+@0 Reading ELF file out/east/bin/out_1_0.elf
+@0 Reading ELF file out/east/bin/out_3_0.elf
+@0 Reading ELF file out/east/bin/out_2_0.elf
+@0 Reading ELF file out/west/bin/out_0_0.elf
+@0 Reading ELF file out/west/bin/out_1_0.elf
+@0 Reading ELF file out/west/bin/out_4_0.elf
+@0 Reading ELF file out/west/bin/out_3_0.elf
+@0 Reading ELF file out/west/bin/out_2_0.elf
+@0 Reading ELF file out/west/bin/out_5_0.elf
+@0 Reading ELF file out/generated/MEMCPY_XY_ROUTES.elf
+@0 Invocation key is: simB9BBDAD07C29CD6A1ACC48F6C92D2E23
+@0 Plan key is: plan8C1885582DFC6EAE07FA76181FABD675
+@0 SimTraceCtf, flags:  wavelets=0 landing=1 inst=1 switch_positions=0 stalls=1
+@0 P0.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P1.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P2.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P3.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P4.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P5.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P6.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P7.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P8.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P9.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P10.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P0.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P1.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P2.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P3.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P4.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P5.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P6.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P7.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P8.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P9.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P10.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P0.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P1.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P2.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P3.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P4.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P5.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P6.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P7.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P8.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P9.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P10.2 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P0.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P1.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P2.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P3.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P4.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P5.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P6.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P7.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P8.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P9.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P10.3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LW0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LW1 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LW2 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LW3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LE0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LE1 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LE2 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LE3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN1 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN4 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN5 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN6 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN7 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN8 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN10 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS1 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS4 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS5 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS6 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS7 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS8 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS10 (nul) tile trace flag: inst_trace,landing,stalls
+@0 Architecture is: SDR
+@0 Simtile is: hwtile
+@0 Sim stats: config-time=0.02, nodes=1, threads=5
+@0 Sim stats: tiles=74, simulated_tiles=26, hwtile=22, iotile=4, nultile=48
+@83548 Request to asynchronously stop simulation
+@83548 Request to asynchronously stop simulation
+@83550 Stopping due to user request
+@83550 15273 cycles since an instruction was executed, 15309 cycles since a wavelet landed
+@83550 Simulation used 12.12 seconds, init-time=0.07, total-time=12.19, cycles=83550, cyc/sec=6893.49, tile-cyc/sec=179230.87, tile-cyc/sec-thread=35846.17
+@83550 CTF Stats: num_stalls_       =            0
+@83550 CTF Stats: num_wavelets      =        20474
+@83550 CTF Stats: num_inst_dispatch =       362969
+@83550 CTF Stats: num_inst_pipe     =      1150536
+@83550 CTF Stats: num_switch_pos    =            0

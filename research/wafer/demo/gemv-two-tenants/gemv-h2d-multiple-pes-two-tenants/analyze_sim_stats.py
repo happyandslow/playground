@@ -23,6 +23,12 @@ import math
 import os
 from typing import Dict, List, Any
 
+# Optional plotting support.
+try:
+    import matplotlib.pyplot as plt
+except ImportError:
+    plt = None
+
 
 def load_stats(pattern: str = "sim_stats_*.json") -> List[Dict[str, Any]]:
     files = sorted(glob.glob(pattern))
@@ -77,6 +83,9 @@ def summarize(runs: List[Dict[str, Any]]) -> None:
             v = r.get(k, None)
             if is_number(v):
                 data[k].append(float(v))
+
+    # Optionally, plot latency distributions for selected metrics.
+    plot_latency_distributions(data)
 
     # Header
     header_cols = [
@@ -141,6 +150,51 @@ def summarize(runs: List[Dict[str, Any]]) -> None:
             "max": f"{max(vals):.6g}",
         }
         print(fmt_row(row))
+
+
+def plot_latency_distributions(data: Dict[str, List[float]]) -> None:
+    """
+    Create simple scatter and box plots for latency-related metrics:
+    'cycle_count' and 'cycles_per_second', if present.
+    """
+    if plt is None:
+        # matplotlib not available; skip plotting.
+        print("matplotlib not installed; skipping latency plots.")
+        return
+
+    metrics_to_plot = ["cycle_count", "cycles_per_second"]
+
+    for metric in metrics_to_plot:
+        values = data.get(metric, [])
+        if not values:
+            continue
+
+        # Scatter plot of individual samples.
+        plt.figure()
+        xs = list(range(len(values)))
+        plt.scatter(xs, values, alpha=0.7)
+        plt.title(f"{metric} samples")
+        plt.xlabel("run index")
+        plt.ylabel(metric)
+        plt.grid(True, alpha=0.3)
+        plt.tight_layout()
+        scatter_name = f"{metric}_scatter.png"
+        print(f"Saving {scatter_name}")
+        plt.savefig(scatter_name, dpi=150)
+        plt.close()
+        print(f"Wrote {scatter_name}")
+
+        # Box plot of distribution.
+        plt.figure()
+        plt.boxplot(values, vert=True, showfliers=True)
+        plt.title(f"{metric} distribution")
+        plt.ylabel(metric)
+        plt.grid(True, axis="y", alpha=0.3)
+        plt.tight_layout()
+        box_name = f"{metric}_boxplot.png"
+        plt.savefig(box_name, dpi=150)
+        plt.close()
+        print(f"Wrote {box_name}")
 
 
 def main() -> None:
