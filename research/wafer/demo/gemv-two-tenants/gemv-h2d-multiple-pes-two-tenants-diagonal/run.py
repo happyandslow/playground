@@ -49,7 +49,7 @@ runner.run()
 
 repeat_compute = 1
 
-for step in range(2):
+for step in range(10):
   # Copy A, x, b to device
   runner.memcpy_h2d(A_symbol, np.tile(A, width), 0, 0, width, 1, M*N, streaming=False,
     order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
@@ -58,19 +58,19 @@ for step in range(2):
   runner.memcpy_h2d(b_symbol, np.tile(b, width), 0, 0, width, 1, M, streaming=False,
     order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
   
-  runner.memcpy_h2d(A_symbol, np.tile(A, width), 0, 1, width, 1, M*N, streaming=False,
-    order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
-  runner.memcpy_h2d(x_symbol, np.tile(x, width), 0, 1, width, 1, N, streaming=False,
-    order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
-  runner.memcpy_h2d(b_symbol, np.tile(b, width), 0, 1, width, 1, M, streaming=False,
-    order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
+  # runner.memcpy_h2d(A_symbol, np.tile(A, width), 0, 1, width, 1, M*N, streaming=False,
+  #   order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
+  # runner.memcpy_h2d(x_symbol, np.tile(x, width), 0, 1, width, 1, N, streaming=False,
+  #   order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
+  # runner.memcpy_h2d(b_symbol, np.tile(b, width), 0, 1, width, 1, M, streaming=False,
+  #   order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
   
-  runner.memcpy_h2d(A_symbol, np.tile(A, width), width, 0, width, 1, M*N, streaming=False,
-    order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
-  runner.memcpy_h2d(x_symbol, np.tile(x, width), width, 0, width, 1, N, streaming=False,
-    order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
-  runner.memcpy_h2d(b_symbol, np.tile(b, width), width, 0, width, 1, M, streaming=False,
-    order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
+  # runner.memcpy_h2d(A_symbol, np.tile(A, width), width, 0, width, 1, M*N, streaming=False,
+  #   order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
+  # runner.memcpy_h2d(x_symbol, np.tile(x, width), width, 0, width, 1, N, streaming=False,
+  #   order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
+  # runner.memcpy_h2d(b_symbol, np.tile(b, width), width, 0, width, 1, M, streaming=False,
+  #   order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
   
   runner.memcpy_h2d(A_symbol, np.tile(A, width), width, 1, width, 1, M*N, streaming=False,
     order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
@@ -88,13 +88,13 @@ for step in range(2):
   runner.memcpy_d2h(y1_result, y1_symbol, 0, 0, width, 1, M, streaming=False,
     order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
   
-  y2_result = np.zeros([M*width], dtype=np.float32)
-  runner.memcpy_d2h(y2_result, y2_symbol, 0, 1, width, 1, M, streaming=False,
-    order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
+  # y2_result = np.zeros([M*width], dtype=np.float32)
+  # runner.memcpy_d2h(y2_result, y2_symbol, 0, 1, width, 1, M, streaming=False,
+  #   order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
   
-  y3_result = np.zeros([M*width], dtype=np.float32)
-  runner.memcpy_d2h(y3_result, y3_symbol, width, 0, width, 1, M, streaming=False,
-    order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
+  # y3_result = np.zeros([M*width], dtype=np.float32)
+  # runner.memcpy_d2h(y3_result, y3_symbol, width, 0, width, 1, M, streaming=False,
+  #   order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
   
   y4_result = np.zeros([M*width], dtype=np.float32)
   runner.memcpy_d2h(y4_result, y4_symbol, width, 1, width, 1, M, streaming=False,

@@ -47,7 +47,7 @@ runner.run()
 
 repeat_compute = 1
 
-for step in range(2):
+for step in range(10):
   # Copy A, x, b to device
   runner.memcpy_h2d(A_symbol, np.tile(A, width), 0, 0, width, 1, M*N, streaming=False,
     order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)

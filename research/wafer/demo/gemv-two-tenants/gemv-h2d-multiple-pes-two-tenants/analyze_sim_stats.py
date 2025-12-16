@@ -162,7 +162,7 @@ def plot_latency_distributions(data: Dict[str, List[float]]) -> None:
         print("matplotlib not installed; skipping latency plots.")
         return
 
-    metrics_to_plot = ["cycle_count", "cycles_per_second"]
+    metrics_to_plot = ["cycle_count", "cycles_per_second", "tile_cycles_per_second"]
 
     for metric in metrics_to_plot:
         values = data.get(metric, [])
