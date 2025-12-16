@@ -45,7 +45,7 @@ y2_symbol = runner.get_id('y2')
 runner.load()
 runner.run()
 
-repeat_compute = 50
+repeat_compute = 1
 
 for step in range(2):
   # Copy A, x, b to device
